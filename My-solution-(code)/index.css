@@ -5,20 +5,106 @@ body {
 
 .container {
     background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    border-radius: 8%;
 }
 
-.h1 {
+.container-fluid {
+    padding: 3%;
+}
+
+.image {
+    border-radius: 10%;
+    padding: 4%;
+    height: auto;
+    width: 325px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.h3 {
+    text-align: left;
     color: #FFF0F0;
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    padding-top: 5px;
+    margin-left: 20px;
 }
 
-.content {
-    color: hsl(215, 51%, 70%);
-}
-
-.eth-p {
+.h3:hover {
     color: hsl(178, 100%, 50%);
 }
 
-.time-p {
+.content {
+    font-size: 16px;
+    padding-top: 5px;
+    margin-left: 20px;
     color: hsl(215, 51%, 70%);
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    padding-bottom: 30x;
+}
+
+.eth-img {
+    position: absolute;
+    margin-left: -140px;
+    margin-top: 3.5px;
+}
+
+.eth-p {
+    position: absolute;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    margin-left: 45px;
+    font-weight: 600;
+}
+
+.time-img {
+    margin-left: 100px;
+    margin-top: -2.5px;
+}
+
+.time-p {
+    position: absolute;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    margin-left: 235px;
+    margin-top: -22px;
+    font-weight: 400;
+}
+
+hr {
+    margin-left: 33px;
+    width: 80%;
+    border-color: hsl(215, 51%, 70%);
+    border-style: groove;
+    border-width: 1px;
+}
+
+.bro-img {
+    max-width:55px;
+    height: auto;
+    margin-left: 23px;
+    margin-top: -5px;
+}
+
+.boy-p {
+    text-align: left;
+    color: #FFF0F0;
+    font-family: 'Outfit', sans-serif;
+    margin-left: -10px;
+    padding-bottom: 13px;
+}
+
+.creation {
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+    color: #FFF0F0;
+}
+
+.cyan-marius:hover {
+    color: hsl(178, 100%, 50%);
 }
